@@ -65,5 +65,35 @@ end,
 
     return exploit
     end,
+     ['LoadScript'] = function()
+        if game.placeId == 6284583030  then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/Psx/Cloud_Hub.lua"))()
+     elseif game.placeId == 10321372166  then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/Psx/Cloud_Hub.lua"))()
+     elseif game.placeId == 7722306047  then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/Psx/Cloud_Hub.lua"))()
+ elseif game.placeId == 537413528 then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Cloud_Hub-boat.lua"))()
+ elseif game.placeId == 5780309044 then 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Cloud_Hub-stands.lua"))()
+      elseif game.placeId == 1224212277 then 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/CloudHub-Mad.lua"))()
+      elseif game.placeId == 9170761016  then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Cloud-MagicClicker.lua"))()
+      elseif game.placeId == 183364845  then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/SpeedRun-Cloud.lua"))()
+     elseif game.placeId == 6516141723  then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Doors-CloudHub.lua"))()
+     elseif game.placeId == 6839171747  then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Doors-CloudHub.lua"))()
+      elseif game.placeId == 9872472334  then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Cloud-Evade.lua"))()
+      elseif game.placeId == 1537690962  then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/BSS-cloud.lua"))()
+      elseif game.placeId == 10047913840  then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Tradining-Cloud.lua"))()
+  end
+        print("loaded")
+    end
     }
     return api
