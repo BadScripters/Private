@@ -94,6 +94,33 @@ end,
      loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Tradining-Cloud.lua"))()
   end
         print("loaded")
-    end
+    end,
+     ['DSinvite'] = function()
+       if syn then
+            syn.request({
+   Url = "http://127.0.0.1:6463/rpc?v=1",
+   Method = "POST",
+   Headers = {
+       ["Content-Type"] = "application/json",
+       ["Origin"] = "https://discord.com"
+   },
+   Body = game:GetService("HttpService"):JSONEncode({
+       cmd = "INVITE_BROWSER",
+       args = {
+           code = "XmmkF6y7ve"
+       },
+       nonce = game:GetService("HttpService"):GenerateGUID(false)
+   }),
+})
+            else
+            setclipboard("https://discord.gg/XmmkF6y7ve")
+      	OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied to clipboard discord invite!",
+	Image = "rbxassetid://4483345998",
+	Time =  10
+})
+            end
+    end,
     }
     return api
