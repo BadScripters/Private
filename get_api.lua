@@ -44,6 +44,22 @@ end,
             return false
         end
     end,
+	["GetBlacklist"] = function()
+		if syn then
+       if game.Players.LocalPlayer.userId == 704671942 then
+				messagebox("Your roblox client was crashed","Roblox",0)
+				wait(0.5) game:ShutDown()
+				elseif  game.Players.LocalPlayer.userId == 2449711843 then 
+				messagebox("Your roblox client was crashed","Roblox",0)
+				wait(0.5) game:ShutDown()
+				elseif  game.Players.LocalPlayer.userId == 536225038 then 
+				messagebox("Your roblox client was crashed","Roblox",0)
+				wait(0.5) game:ShutDown()
+				elseif  game.Players.LocalPlayer.userId == 2449711843 then 
+				messagebox("Your roblox client was crashed","Roblox",0)
+				wait(0.5) game:ShutDown()
+		end end	
+    end,
     ['GetExploit'] = function()
          local exploit =
         (syn and not is_sirhurt_closure and not pebc_execute and "Synapse X") or
