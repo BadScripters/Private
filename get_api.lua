@@ -22,6 +22,9 @@ local api = {
         if syn then 
             if isfile(foldername.."/"..filename) then
                 writefile(foldername.."/"..filename , text)
+				else 
+				makefolder(foldername) 
+				writefile(foldername.."/"..filename , text)
                 end
             end
 end,
