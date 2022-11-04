@@ -1,6 +1,6 @@
 local api = {
     ["getkey"] = function() 
-        return "!CloudHub"
+        return "CloudyKey"
     end,
     ["getplace"] = function() 
         return game.PlaceId
