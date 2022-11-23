@@ -141,5 +141,17 @@ end,
 })
             end
     end,
+	["remotes"] = {
+	["farm coin"] = "5",
+		["join coin"] = "7",
+		['open egg']= 'F',
+		['equip']=".7",
+		['unequip all'] = '.l',
+		['enchant'] = '.b',
+		['gold'] = '.m',
+		['rainbow'] = 'J',
+		['boost'] = 'p',
+		
+	},
     }
     return api
