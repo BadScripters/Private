@@ -151,7 +151,8 @@ end,
 		['gold'] = '.m',
 		['rainbow'] = 'J',
 		['boost'] = 'p',
-		['get coins'] = 'E'
+		['get coins'] = 'E',
+		['orb'] = '.3'
 	},
     }
     return api
