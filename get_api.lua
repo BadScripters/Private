@@ -142,17 +142,17 @@ end,
             end
     end,
 	["remotes"] = {
-	        ["farm coin"] = "7",
-		["join coin"] = "5",
-		['open egg']= 'F',
+	        ["farm coin"] = "9",
+		["join coin"] = "w",
+		['open egg']= 'N',
 		['equip']=".7",
 		['unequip all'] = '.l',
 		['enchant'] = '.b',
 		['gold'] = '.m',
 		['rainbow'] = 'J',
 		['boost'] = 'p',
-		['get coins'] = 'E',
-		['orb'] = '.3'
+		['get coins'] = '.q',
+		['orb'] = 'H'
 	},
     }
     return api
