@@ -142,7 +142,7 @@ end,
             end
     end,
 	["remotes"] = {
-	        ["farm coin"] = "M",
+	        ["farm coin"] = "N",
 		["join coin"] = ".3",
 		['open egg']= '6',
 		['equip']="l",
