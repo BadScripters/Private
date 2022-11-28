@@ -167,5 +167,5 @@ end,
         ['get coins'] = '.9',
         ['orb'] = '.f'}}
     }
-    }
+    
     return api
