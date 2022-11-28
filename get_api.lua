@@ -144,7 +144,7 @@ end,
 	["remotes"] = {
 	        ["farm coin"] = "N",
 		["join coin"] = ".3",
-		['open egg']= '6',
+		['open egg']= '5',
 		['equip']="l",
 		['unequip all'] = 'p',
 		['enchant'] = '5',
