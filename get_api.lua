@@ -152,7 +152,7 @@ end,
 		['rainbow'] = 'R',
 		['boost'] = 'S',
 		['get coins'] = '.m',
-		['orb'] = '.f'
+		['orb'] = 'o'
 	},
     }
     return api
