@@ -153,6 +153,6 @@ end,
         ['boost'] = 'S',
         ['get coins'] = '.a',
         ['orb'] = '.m' }, 
-    },
+    }
  
     return api
