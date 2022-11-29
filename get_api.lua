@@ -162,7 +162,7 @@ end,
         ['unequip all'] = '.7',
         ['enchant'] = 'w',
         ['gold'] = '.9',
-			['get coins'] = '.d'
+	['get coins'] = '.d',
         ['rainbow'] = 'C'}}
     }
     
