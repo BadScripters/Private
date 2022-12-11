@@ -147,12 +147,12 @@ end,
         ['open egg']= 'Buy Egg',
         ['equip']="Equip Pet",
         ['unequip all'] = '.7',
-        ['enchant'] = 'Enchant',
-        ['gold'] = 'w',
-        ['rainbow'] = 'G',
-        ['boost'] = 'S',
+        ['enchant'] = 'Enchant Pet',
+        ['gold'] = 'Use Golden Machine',
+        ['rainbow'] = 'Use Rainbow Machine',
+        ['boost'] = 'Use Boost',
         ['get coins'] = 'Get Coins',
-        ['orb'] = '.8' }, 
+        ['orb'] = 'Claim Orbs' }, 
     }
  
     return api
