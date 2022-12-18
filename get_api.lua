@@ -151,7 +151,7 @@ end,
         ['gold'] = 'd',
         ['rainbow'] = '.8',
         ['boost'] = 'Use Boost',
-        ['get coins'] = 'H',
+        ['get coins'] = 's',
         ['orb'] = '.f' }, 
     }
  
