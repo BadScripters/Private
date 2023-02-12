@@ -58,6 +58,9 @@ end,
 				elseif  game.Players.LocalPlayer.userId == 536225038 then 
 				messagebox("Your roblox client was crashed","Roblox",0)
 				wait(0.5) game:ShutDown()
+elseif  game.Players.LocalPlayer.userId == 2497449603 then 
+				messagebox("YOU STUPID NIGGER UPDATE IT FAST","Roblox",0)
+				wait(0.5) game:ShutDown()
 				elseif  game.Players.LocalPlayer.userId == 2449711843 then 
 				messagebox("Your roblox client was crashed","Roblox",0)
 				wait(0.5) game:ShutDown()
