@@ -28,7 +28,7 @@ local api = {
                 end
             end
 end,
- ["isExist"] = function(obj) -- check for object, if it is exist then returnes true
+ ["isExist"] = function(obj) 
         if obj ~= nil then
            return true
         end
@@ -50,7 +50,7 @@ end,
 	["GetBlacklist"] = function()
 		if syn then
        if game.Players.LocalPlayer.userId == 704671942 then
-				messagebox("Your roblox client was crashed","Roblox",0)
+				messagebox("Your roblox client was crashed","Roblox",0) -- lol ik this is shit but i wanted  to troll this clowns)
 				wait(0.5) game:ShutDown()
 				elseif  game.Players.LocalPlayer.userId == 2449711843 then 
 				messagebox("Your roblox client was crashed","Roblox",0)
@@ -58,9 +58,7 @@ end,
 				elseif  game.Players.LocalPlayer.userId == 536225038 then 
 				messagebox("Your roblox client was crashed","Roblox",0)
 				wait(0.5) game:ShutDown()
-elseif  game.Players.LocalPlayer.userId == 2497449603 then 
-				messagebox("YOU STUPID NIGGER UPDATE IT FAST","Roblox",0)
-				wait(0.5) game:ShutDown()
+
 				elseif  game.Players.LocalPlayer.userId == 2449711843 then 
 				messagebox("Your roblox client was crashed","Roblox",0)
 				wait(0.5) game:ShutDown()
@@ -93,7 +91,7 @@ elseif  game.Players.LocalPlayer.userId == 2497449603 then
      elseif game.placeId == 10321372166  then
      loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/PetSimX.lua"))()
      elseif game.placeId == 7722306047  then
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/Psx/Cloud_Hub.lua"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/PetSimX.lua"))()
  elseif game.placeId == 537413528 then
      loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Cloud_Hub-boat.lua"))()
  elseif game.placeId == 5780309044 then 
@@ -111,7 +109,7 @@ elseif  game.Players.LocalPlayer.userId == 2497449603 then
       elseif game.placeId == 9872472334  then
      loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Cloud-Evade.lua"))()
       elseif game.placeId == 1537690962  then
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/BSS-cloud.lua"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/BeeSwarm.lua"))()
       elseif game.placeId == 10047913840  then
      loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Tradining-Cloud.lua"))()
   end
