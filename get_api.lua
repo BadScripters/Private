@@ -87,11 +87,11 @@ end,
     end,
      ['LoadScript'] = function()
         if game.placeId == 6284583030  then
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/PetSimX.lua"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/PetSim.lua"))()
      elseif game.placeId == 10321372166  then
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/PetSimX.lua"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/PetSim.lua"))()
      elseif game.placeId == 7722306047  then
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/PetSimX.lua"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/PetSim.lua"))()
  elseif game.placeId == 537413528 then
      loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/Cloud_Hub-boat.lua"))()
  elseif game.placeId == 5780309044 then 
