@@ -86,9 +86,9 @@ end,
     end,
      ['LoadScript'] = function()
         if game.placeId == 6284583030  then
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/Psx/Cloud_Hub.lua"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/PetSimX.lua"))()
      elseif game.placeId == 10321372166  then
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/Psx/Cloud_Hub.lua"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/PetSimX.lua"))()
      elseif game.placeId == 7722306047  then
      loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/Psx/Cloud_Hub.lua"))()
  elseif game.placeId == 537413528 then
@@ -142,17 +142,17 @@ end,
             end
     end,
 	 ["remotes"] = { 
-              ["farm coin"] = "Farm Coin",
-        ["join coin"] = "Join Coin",
-        ['open egg']= 'Buy Egg',
-        ['equip']="Equip Pet",
-        ['unequip all'] = 'Unequip All Pets',
-        ['enchant'] = 'Enchant Pet',
-        ['gold'] = 'Use Golden Machine',
-        ['rainbow'] = 'Use Rainbow Machine',
-        ['boost'] = 'Use Boost',
-        ['get coins'] = 'Get Coins',
-        ['orb'] = 'Claim Orbs' }, 
+              ["farm coin"] = ".s",
+        ["join coin"] = ".9",
+        ['open egg']= 'G',
+        ['equip']="q",
+        ['unequip all'] = '.3',
+        ['enchant'] = '5',
+        ['gold'] = '.g',
+        ['rainbow'] = 'R',
+        ['boost'] = '.u',
+        ['get coins'] = '.c',
+        ['orb'] = 'O' }, 
     }
  
     return api
