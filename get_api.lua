@@ -133,12 +133,7 @@ end,
    }),
 })
  setclipboard("https://discord.gg/XmmkF6y7ve")
-      	OrionLib:MakeNotification({
-	Name = "Copied!",
-	Content = "Copied to clipboard discord invite!",
-	Image = "rbxassetid://4483345998",
-	Time =  10
-})
+      	
             else
             setclipboard("https://discord.gg/XmmkF6y7ve")
       	OrionLib:MakeNotification({
