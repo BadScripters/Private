@@ -12,14 +12,15 @@ local api = {
         return game.Players.LocalPlayer.userId
      end,
  ["readfile"] = function(foldername,filename) 
-        if syn then 
+        if readfile and writefile then 
             if isfile(foldername.."/"..filename) then
                 return readfile(foldername.."/"..filename)
                 end
             end
  end,
 ["writefile"] = function(foldername,filename,text) 
-        if syn then 
+         if readfile and writefile then 
+			
             if isfile(foldername.."/"..filename) then
                 writefile(foldername.."/"..filename , text)
 				else 
